@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int main(char *argc[], int argv) {
+int main() {
     printf("Here we are before fork\n");
     pid_t pid;
     pid = fork();
